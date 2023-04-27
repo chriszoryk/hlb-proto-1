@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #00235e;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #00235e;
+}
+
+label strong {
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #00235e;
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.company-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.company-details {
+    margin-top: 50px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.company-details p {
+    margin: 0 0 10px 0;
+}
+
+.company-details h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #00235e;
+}
+
+.company-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.company-details li {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.company-details li:before {
+    content: "- ";
+    color: #00235e;
+    font-weight: bold;
+}
